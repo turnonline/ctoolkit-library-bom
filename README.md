@@ -1,2 +1,2 @@
 # ctoolkit-library-bom
-The common dependency baseline. The bill of Materials to be used in CToolkiT library.
+The common dependency baseline. The Bill of Materials to be used in CToolkiT library.
