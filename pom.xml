@@ -28,7 +28,7 @@
     <artifactId>ctoolkit-library-bom</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>The common CToolkiT library dependency baseline - BOM</name>
+    <name>The common CToolkiT library dependency baseline</name>
     <description>The common dependency baseline. The Bill of Materials to be used in CToolkiT library.</description>
     <url>https://github.com/turnonline/ctoolkit-library-bom</url>
 
