@@ -275,7 +275,31 @@
             <dependency>
                 <groupId>ma.glasnost.orika</groupId>
                 <artifactId>orika-core</artifactId>
-                <version>1.4.5</version>
+                <version>1.5.0-beta0</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.codehaus.janino</groupId>
+                        <artifactId>janino</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.javassist</groupId>
+                        <artifactId>javassist</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>com.thoughtworks.paranamer</groupId>
+                        <artifactId>paranamer</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.javassist</groupId>
+                <artifactId>javassist</artifactId>
+                <version>3.16.1-GA</version>
+            </dependency>
+            <dependency>
+                <groupId>com.thoughtworks.paranamer</groupId>
+                <artifactId>paranamer</artifactId>
+                <version>2.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
