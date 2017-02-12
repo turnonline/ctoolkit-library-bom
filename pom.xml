@@ -105,12 +105,27 @@
             </dependency>
             <dependency>
                 <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client-servlet</artifactId>
+                <version>1.22.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.api-client</groupId>
                 <artifactId>google-api-client-appengine</artifactId>
                 <version>1.22.0</version>
             </dependency>
             <dependency>
                 <groupId>com.google.oauth-client</groupId>
                 <artifactId>google-oauth-client</artifactId>
+                <version>1.22.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.oauth-client</groupId>
+                <artifactId>google-oauth-client-servlet</artifactId>
+                <version>1.22.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.oauth-client</groupId>
+                <artifactId>google-oauth-client-appengine</artifactId>
                 <version>1.22.0</version>
             </dependency>
             <dependency>
@@ -295,6 +310,7 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+            <!-- In order to make orika work on AppEngine these libs has been downgraded and explicitly defined. -->
             <dependency>
                 <groupId>org.javassist</groupId>
                 <artifactId>javassist</artifactId>
@@ -310,6 +326,7 @@
                 <artifactId>concurrentlinkedhashmap-lru</artifactId>
                 <version>1.2_jdk5</version>
             </dependency>
+            <!-- In order to make orika work on AppEngine these libs has been downgraded and explicitly defined. -->
         </dependencies>
     </dependencyManagement>
 
