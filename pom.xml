@@ -69,6 +69,12 @@
                 <version>2.5</version>
                 <scope>provided</scope>
             </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>3.1.0</version>
+                <scope>provided</scope>
+            </dependency>
             <!-- Once javax.cache:cache-api fully supported on AppEngine replace jsr107cache  -->
             <dependency>
                 <groupId>net.sf.jsr107cache</groupId>
