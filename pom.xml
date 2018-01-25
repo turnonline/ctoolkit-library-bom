@@ -90,9 +90,10 @@
             <dependency>
                 <groupId>com.google.cloud</groupId>
                 <artifactId>google-cloud-storage</artifactId>
-                <version>1.14.0</version>
+                <version>1.15.0</version>
             </dependency>
-            <!-- Google Client API related dependencies -->
+            <!-- Google Client API related dependencies
+             https://developers.google.com/api-client-library/java/google-api-java-client/setup -->
             <dependency>
                 <groupId>com.google.api-client</groupId>
                 <artifactId>google-api-client</artifactId>
@@ -133,6 +134,12 @@
                 <groupId>com.google.http-client</groupId>
                 <artifactId>google-http-client</artifactId>
                 <version>1.23.0</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.google.http-client</groupId>
@@ -140,8 +147,48 @@
                 <version>1.23.0</version>
             </dependency>
             <dependency>
+                <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client-gson</artifactId>
+                <version>1.23.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.http-client</groupId>
+                <artifactId>google-http-client-gson</artifactId>
+                <version>1.23.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.http-client</groupId>
+                <artifactId>google-http-client-jackson</artifactId>
+                <version>1.23.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client-jackson2</artifactId>
+                <version>1.23.0</version>
+            </dependency>
+            <dependency>
                 <groupId>com.google.http-client</groupId>
                 <artifactId>google-http-client-jackson2</artifactId>
+                <version>1.23.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client-protobuf</artifactId>
+                <version>1.23.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.http-client</groupId>
+                <artifactId>google-http-client-protobuf</artifactId>
+                <version>1.23.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client-xml</artifactId>
+                <version>1.23.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.http-client</groupId>
+                <artifactId>google-http-client-xml</artifactId>
                 <version>1.23.0</version>
             </dependency>
             <!-- Specification dependencies -->
