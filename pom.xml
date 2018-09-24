@@ -86,11 +86,6 @@
                 <artifactId>objectify</artifactId>
                 <version>5.1.22</version>
             </dependency>
-            <dependency>
-                <groupId>com.google.cloud</groupId>
-                <artifactId>google-cloud-storage</artifactId>
-                <version>1.27.0</version>
-            </dependency>
             <!-- Google Client API related dependencies
              https://developers.google.com/api-client-library/java/google-api-java-client/setup -->
             <dependency>
