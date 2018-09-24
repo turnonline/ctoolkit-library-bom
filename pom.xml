@@ -25,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-library-bom</artifactId>
-    <version>9-SNAPSHOT</version>
+    <version>9</version>
     <packaging>pom</packaging>
     <name>The common CtoolkiT library dependency baseline</name>
     <description>The common dependency baseline. The Bill of Materials to be used in CtoolkiT library.</description>
@@ -35,7 +35,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-library-bom.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-library-bom.git</developerConnection>
         <url>https://github.com/turnonline/ctoolkit-library-bom</url>
-        <tag>HEAD</tag>
+        <tag>ctoolkit-library-bom-9</tag>
     </scm>
 
     <issueManagement>
