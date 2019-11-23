@@ -15,8 +15,7 @@
   ~ limitations under the License.
   -->
 
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
         <groupId>org.ctoolkit.maven</groupId>
@@ -26,7 +25,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ctoolkit-library-bom</artifactId>
-    <version>12-SNAPSHOT</version>
+    <version>12</version>
     <packaging>pom</packaging>
     <name>The common CtoolkiT library dependency baseline</name>
     <description>The common dependency baseline. The Bill of Materials to be used in CtoolkiT library.</description>
@@ -36,7 +35,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/ctoolkit-library-bom.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/ctoolkit-library-bom.git</developerConnection>
         <url>https://github.com/turnonline/ctoolkit-library-bom</url>
-        <tag>HEAD</tag>
+        <tag>ctoolkit-library-bom-12</tag>
     </scm>
 
     <issueManagement>
